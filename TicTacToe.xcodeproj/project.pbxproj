@@ -13,9 +13,6 @@
 		78F5D8242445D96D00F537AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F5D8222445D96D00F537AA /* Main.storyboard */; };
 		78F5D8262445D97100F537AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F5D8252445D97100F537AA /* Assets.xcassets */; };
 		78F5D8292445D97100F537AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F5D8272445D97100F537AA /* LaunchScreen.storyboard */; };
-		78F5D8332445D97F00F537AA /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F5D8302445D97F00F537AA /* circle.png */; };
-		78F5D8342445D97F00F537AA /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F5D8312445D97F00F537AA /* board.png */; };
-		78F5D8372445DB0700F537AA /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F5D8362445DB0700F537AA /* cross.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +24,6 @@
 		78F5D8252445D97100F537AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78F5D8282445D97100F537AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78F5D82A2445D97100F537AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78F5D8302445D97F00F537AA /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = ../../../Downloads/circle.png; sourceTree = "<group>"; };
-		78F5D8312445D97F00F537AA /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board.png; path = ../../../Downloads/board.png; sourceTree = "<group>"; };
-		78F5D8362445DB0700F537AA /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = ../../../Downloads/cross.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +56,6 @@
 		78F5D81B2445D96D00F537AA /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
-				78F5D8362445DB0700F537AA /* cross.png */,
-				78F5D8312445D97F00F537AA /* board.png */,
-				78F5D8302445D97F00F537AA /* circle.png */,
 				78F5D81C2445D96D00F537AA /* AppDelegate.swift */,
 				78F5D81E2445D96D00F537AA /* SceneDelegate.swift */,
 				78F5D8202445D96D00F537AA /* ViewController.swift */,
@@ -134,12 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78F5D8332445D97F00F537AA /* circle.png in Resources */,
 				78F5D8292445D97100F537AA /* LaunchScreen.storyboard in Resources */,
 				78F5D8262445D97100F537AA /* Assets.xcassets in Resources */,
 				78F5D8242445D96D00F537AA /* Main.storyboard in Resources */,
-				78F5D8342445D97F00F537AA /* board.png in Resources */,
-				78F5D8372445DB0700F537AA /* cross.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9P9CC6KLP;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9P9CC6KLP;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

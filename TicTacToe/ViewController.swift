@@ -10,15 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var playerPlaying = 1
+    
     @IBOutlet weak var score: UILabel!
     
-    @IBAction func action(_ sender: Any) {
+    @IBAction func action(_ sender: AnyObject ) {
+        if playerPlaying == 1 {
+            sender.setImage(UIImage(named: "circle.png"), for: UIControl.State())
+            playerPlaying = 2
+        } else {
+            sender.setImage(UIImage(named: "cross.png"), for: UIControl.State())
+            playerPlaying = 1
+        }
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 
